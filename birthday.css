@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image:url(/home/umar/Documents/bar/birthday/bir6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1267px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.container-1
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 50px;
+    margin: 0px 20px;
+}
+.container-1 h1{
+    margin: 0px 20px;
+}
+
+.container-1 p{
+    margin: 20px 50px;
+    color: rgb(39, 1, 1);
+    font-size: large;
+    font-weight: 900;
+}
+.container-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    background-image: url(br3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 420px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 280px; 
+    height: 420px;
+}
+.box2 h1{
+   text-align: center;
+}
+.box3{
+    background-image: url(br1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px; height: 420px;
+   
+}
+.box1 p{
+    margin: 20px 50px;
+    color:transparent;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 300px;
+    text-shadow: 10px salmon;
+    
+}
+.box3 p{
+    margin: 20px 50px;
+    color:transparent;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 300px;
+    text-shadow: 10px salmon;
+    
+}
+.box1 p:hover{
+    margin: 20px 50px;
+    color: rgb(235, 8, 8);
+    font-size: large;
+    font-weight: 900;
+}
+.box3 p:hover{
+    margin: 20px 50px;
+    color: rgb(235, 8, 8);
+    font-size: large;
+    font-weight: 900;
+}
+.container-3{
+    background-image:url(/home/umar/Documents/bar/birthday/bir6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1300px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    margin-top:1px;
+    
+}
+.container-3 {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.container-3 h1:hover{
+    color: rgb(235, 8, 8);
+    
+}
+@media (max-width:340px) {
+    .main{
+        background-image:url(/home/umar/Documents/bar/birthday/bir6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:1267px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .container-1
+{   
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 0px 8px;
+    margin: 0px 2px;
+    
+  }
+    .container-1 h1{
+        margin: -11px -35px;
+        font-size: 14px;
+    }
+    
+    .container-1 p{
+        margin: 20px -13px;
+        color: rgb(39, 1, 1);
+        font-size: 10px;
+      }
+    .container-2
+    {
+        display:contents;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .box1{
+        background-image: url(br3.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 280px;
+        height: 420px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        width: 280px; 
+        height: 420px;
+    }
+    .box2 h1{
+       text-align: center;
+    }
+    .box3{
+        background-image: url(br1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 280px; height: 420px;
+       
+    }
+    .box1 p{
+        margin: 20px 50px;
+        color:transparent;
+        font-size: 80px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 300px;
+        text-shadow: 10px salmon;
+        
+    }
+    .box3 p{
+        margin: 20px 50px;
+        color:transparent;
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 300px;
+        text-shadow: 10px salmon;
+        
+    }
+    .box1 p:hover{
+        margin: 20px 50px;
+        color: rgb(235, 8, 8);
+        font-size: large;
+        font-weight: 900;
+    }
+    .box3 p:hover{
+        margin: 20px 50px;
+        color: rgb(235, 8, 8);
+        font-size: large;
+        font-weight: 900;
+    }
+    .container-3{
+        background-image:url(/home/umar/Documents/bar/birthday/bir6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:400px;
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        margin-top:1px;
+        
+    }
+    .container-3 {
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 7px;
+    text-align: center;
+    padding-left: 10px;
+    }
+    .container-3 p{
+        font-size: 6px;
+    text-align: center;
+    }
+    .container-3 h1:hover{
+        color: rgb(235, 8, 8); 
+    }
+}
